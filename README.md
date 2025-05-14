@@ -57,24 +57,13 @@ while True:
     s.send(ip.encode()) 
     print(s.recv(1024).decode())
 ```
-TRACEROUTE COMMAND:
-```
-from scapy.all import* 
-target = ["www.google.com"] 
-result, unans = traceroute(target,maxttl=32) 
-print(result,unans)
-```
+
 
 ## Output
 
 CLIENT & SERVER:
 
 ![image](https://github.com/user-attachments/assets/cb8f66e5-b2e1-4118-a9bf-c8c6e5c29b54)
-
-TRACEROUTE COMMAND:
-
-![image](https://github.com/user-attachments/assets/10616887-a5d5-4a24-be89-a0a2d4f1c4af)
-
 
 
 ## Result
