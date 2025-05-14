@@ -75,6 +75,8 @@ CLIENT & SERVER:
 
 
 TRACER COMMAND:
+
+
 ![image](https://github.com/user-attachments/assets/d8f01994-dc79-48ed-a6bf-02d13c319361)
 
 
