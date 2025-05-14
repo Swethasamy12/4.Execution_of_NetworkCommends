@@ -57,6 +57,14 @@ while True:
     s.send(ip.encode()) 
     print(s.recv(1024).decode())
 ```
+TRACER COMMAND:
+```
+from scapy.all import* 
+target = ["www.google.com"] 
+result, unans = traceroute(target,maxttl=32) 
+print(result,unans)
+```
+
 
 
 ## Output
@@ -64,6 +72,10 @@ while True:
 CLIENT & SERVER:
 
 ![image](https://github.com/user-attachments/assets/cb8f66e5-b2e1-4118-a9bf-c8c6e5c29b54)
+
+
+TRACER COMMAND:
+![image](https://github.com/user-attachments/assets/d8f01994-dc79-48ed-a6bf-02d13c319361)
 
 
 ## Result
